@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Portfolio - About</title>
     <!-- reset -->
-    <link rel="stylesheet" type="text/css" href="Bootstrap-Portfolio\reset.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- my override -->
@@ -26,6 +26,7 @@
         <div class="container">
             <a href="#" class="navbar-brand">Thomas Mosley</a>
             <ul>
+                <!-- <lable for="toggle">&#9776;</lable> -->
                 <p class="navbar-text navbar-right" class="navbar-link">
                     <a href="bootStrapPort-Contact.html">Contact</a></p>
                 <p class="navbar-text navbar-right" class="navbar-link"> <a href="bootStrapPort-About.html">About</a></p>
@@ -33,10 +34,10 @@
             </ul>
         </div>
     </nav>
-    <!-- my bio container -->
-    <div class="container" id="mainContent">
-
-        <div class="col-md-6">
+    <!-- container -->
+    <div class="container container-fluid" id="mainContent">
+        <!-- my bio -->
+        <div class="col-lg-6 col-sm-4">
             <div class="bio">
                 <h1>About Me</h1>
                 <hr>
@@ -47,9 +48,9 @@
             </div>
         </div>
         <!--sidebar  -->
-        <div class="container" id="sidebar">
-            <div class="row">
-                <div id="connect" class="col-md-3">
+        <div id="sidebar">
+            <div class="row" id="contact">
+                <div id="connect" class="col-lg-4 col-md-3 col-sm-12">
                     <h2>Connect With Me</h2>
                     <hr>
                     <a class="socialMedia" href=""><img class="socialIcon" src="Assets\JPG\social-media_github_flat-rounded-square-white-on-black_512x512.png"></a>
